@@ -14,14 +14,13 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: MacOS",
     "Operating System :: POSIX :: Linux",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 dependencies = [
     "rich (>=12.4.0,<13.0.0)",
     "click (>=8.0.0,<9.0.0)",
@@ -31,7 +30,7 @@ dependencies = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.7,<4.0" # required for locking in Poetry 2+
+python = ">=3.9,<4.0" # required for locking in Poetry 2+
 
 [project.scripts]
 rich = "rich_cli.__main__:run"
